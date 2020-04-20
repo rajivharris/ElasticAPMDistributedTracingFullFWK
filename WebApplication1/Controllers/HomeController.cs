@@ -14,7 +14,7 @@ namespace WebApplication1.Controllers
         // GET api/<controller>
         public async Task<IEnumerable<string>> Get()
         {
-            var res = await client.GetAsync("http://localhost:60457/");
+            var res = await client.GetAsync("http://localhost:60470/");
             return new string[] { "value1", "value2" };
         }        
     }
